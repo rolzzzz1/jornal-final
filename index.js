@@ -40,7 +40,7 @@ aboutBtn.addEventListener("click", function () {
   viewBtn.classList.add("hidden");
 });
 
-heroDiv.addEventListener("click", function () {
+postContainer.addEventListener("click", function () {
   heroDiv.innerHTML = `
                             <div class="heroPostDivDark">
                                 <div class="heroPostTextDark">
