@@ -1,4 +1,5 @@
 var heroDiv = document.getElementById("heroPostDiv");
+var postContainer = document.getElementById("heroPostContainer");
 var articleDiv = document.getElementById("arcticlesDiv");
 var viewBtn = document.getElementById("viewMBtnDiv");
 var aboutBtn = document.getElementById("aboutBtn");
@@ -6,7 +7,7 @@ var homeBtn = document.getElementById("homeBtn");
 var recentPostTitle = document.getElementById("recentPostTitle");
 
 aboutBtn.addEventListener("click", function () {
-  heroDiv.innerHTML = `
+  postContainer.innerHTML = `
                             <div>
                                 <div class="aboutMeTextDark">
                                     <img src="images/image-18.jpg">
