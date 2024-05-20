@@ -44,6 +44,7 @@ aboutBtn.addEventListener("click", function () {
 });
 
 if (isHome) {
+  console.log("isHome - " + isHome);
   heroDiv.addEventListener("click", function () {
     heroDiv.innerHTML = `
                               <div class="heroPostDivDark">
