@@ -5,6 +5,7 @@ var viewBtn = document.getElementById("viewMBtnDiv");
 var aboutBtn = document.getElementById("aboutBtn");
 var homeBtn = document.getElementById("homeBtn");
 var recentPostTitle = document.getElementById("recentPostTitle");
+var isHome = true;
 
 aboutBtn.addEventListener("click", function () {
   heroDiv.innerHTML = `
@@ -38,6 +39,7 @@ aboutBtn.addEventListener("click", function () {
 
   heroDiv.style.background = "none";
   viewBtn.classList.add("hidden");
+  isHome = false;
 });
 
 heroDiv.addEventListener("click", function () {
@@ -89,6 +91,7 @@ homeBtn.addEventListener("click", function () {
 
   heroDiv.style.background = 'url("../images/article-image-hero.jpg")';
   heroDiv.style.backgroundSize = "cover";
+  isHome = true;
 
   if (!recentPostTitle.classList.contains("hidden")) {
     recentPostTitle.classList.toggle("hidden");
