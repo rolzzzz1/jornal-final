@@ -11,7 +11,7 @@ heroDiv.addEventListener("click", function () {
   if (isHome) {
     heroDiv.innerHTML = `
                               <div class="heroPostDivDark">
-                                  <div class="heroPostTextDark">
+                                  <div class="heroPostText heroPostTextDark">
                                       <span>JULY 23, 2022</span>
                                       <h1>My new journey as a bootcamp student.</h1>
                                       <p>
@@ -35,7 +35,6 @@ heroDiv.addEventListener("click", function () {
     }
 
     heroDiv.style.background = "none";
-    articleDiv.classList.add("arcticlesDivDark");
     viewBtn.classList.add("hidden");
   }
 });

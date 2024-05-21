@@ -6,16 +6,23 @@ body {
 
 /* Header CSS */
 
-.mainHeader {
+/* Common CSS */
+
+.mainHeader,
+.logoDiv,
+.headerBtnDiv {
   display: flex;
+}
+
+.mainHeader {
   justify-content: space-between;
   margin: 0.25em 0.75em;
   padding: 0.25em 0.75em;
-  /* background-color: aquamarine; */
 }
 
+/* Complete Logo CSS */
+
 .logoDiv {
-  display: flex;
   align-items: center;
 }
 
@@ -26,24 +33,22 @@ body {
 
 .logoText {
   display: inline;
-  /* font-size: 13.5px; */
   font-size: 0.844rem;
   padding: 0 0.37em;
-  /* padding: 0 5px; */
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
+/* Header - buttons CSS */
+
 .headerBtnDiv {
-  display: flex;
   align-items: center;
-  column-gap: 15px;
+  column-gap: 0.94em;
 }
 
 .headerBtn {
   background: none;
   border: none;
-  /* font-size: 12px; */
   font-size: 0.75rem;
   font-family: "Source Sans 3", sans-serif;
   font-weight: 600;
@@ -63,34 +68,30 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #202020;
-  /* height: 100px; */
   padding: 2.18em 0;
+}
+
+.footH3,
+.footP {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.75rem;
+  margin: 0;
 }
 
 .footH3 {
   color: #ececec;
-  /* font-size: 12px; */
-  font-size: 0.75rem;
-  font-family: "Source Sans 3", sans-serif;
   font-weight: 700;
-  margin: 0;
 }
 
 .footP {
   color: #d7d7d7;
-  /* font-size: 12px; */
-  font-size: 0.75rem;
-  font-family: "Source Sans 3", sans-serif;
-  margin: 0;
-  /* padding-top: 5px; */
   padding-top: 0.42em;
 }
 
 /* Hero post */
 
 .heroImg {
-  padding-bottom: 10px;
-  padding-top: 15px;
+  padding: 0.94em 0 0.625em 0;
   width: 100%;
 }
 
@@ -98,7 +99,7 @@ body {
   display: block;
   background: url("../images/article-image-hero.jpg");
   background-size: cover;
-  padding: 20px 20px 20px 20px;
+  padding: 1.25em;
   cursor: pointer;
 }
 
@@ -113,116 +114,95 @@ body {
 }
 
 .heroPostText span {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 400;
   margin: 0;
   padding: 0;
 }
 
 .heroPostText h1 {
-  font-size: 32px;
+  font-size: 2rem;
   margin: 0;
-  padding: 10px 0 0 0;
+  padding: 0.31em 0 0 0;
 }
 
 .heroPostText p {
-  font-size: 16px;
+  font-size: 1rem;
   margin: 0;
-  padding: 10px 0;
+  padding: 0.625em 0;
 }
+
+/* About me part CSS */
 
 .aboutMeTextDark {
   color: #151515;
-  padding-top: 10px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 0.625rem 0 0 0;
   font-family: "Source Sans 3", sans-serif;
 }
 
 .heroPostTextDark {
   color: #151515;
-  padding-top: 10px;
-  padding-left: 0px;
-  padding-right: 0px;
+  min-height: 0;
+  padding: 0.625rem 0 0 0;
   font-family: "Source Sans 3", sans-serif;
 }
 
-.heroPostTextDark span {
-  font-size: 12px;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
-}
+/* Articles div CSS */
 
-.heroPostTextDark h1 {
-  font-size: 32px;
-  margin: 0;
-  padding: 10px 0 0 0;
+.arcticlesDiv {
+  padding: 1.25rem;
 }
-
-.heroPostTextDark p {
-  font-size: 16px;
-  margin: 0;
-  padding: 10px 0;
-}
-
-/* Articles div */
 
 .acrticleDivTitle {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Source Sans 3", sans-serif;
   text-align: center;
 }
 
-.arcticlesDiv {
-  padding: 20px;
-}
-
-.arcticlesDivDark {
-  padding: 10px 20px 20px 20px;
+article {
+  padding: 1.25em 0;
 }
 
 .articleImg {
   width: 100%;
 }
 
-article {
-  padding: 20px 0;
+.article-header p,
+.article-header h2,
+.article-header h3 {
+  font-family: "Source Sans 3", sans-serif;
+  margin: 0;
 }
 
 .article-header p {
-  font-size: 14px;
-  font-family: "Source Sans 3", sans-serif;
-  margin: 0;
-  padding: 8px 0 0 0;
+  font-size: 0.875rem;
+  padding: 0.57em 0 0 0;
 }
 
 .article-header h2 {
-  font-size: 24px;
-  font-family: "Source Sans 3", sans-serif;
-  margin: 0;
-  padding: 6px 0 0 0;
+  font-size: 1.5rem;
+  padding: 0.25em 0 0 0;
 }
 
 .article-header h3 {
-  font-size: 16px;
-  font-family: "Source Sans 3", sans-serif;
+  font-size: 1rem;
   font-weight: 400;
-  margin: 0;
-  padding: 6px 0 0 0;
+  padding: 0.375em 0 0 0;
 }
+
+/* View btn CSS */
 
 .viewMBtnDiv {
   text-align: center;
-  padding: 0 0 30px 0;
+  padding: 0 0 1.875em 0;
 }
 
 .viewMBtn {
   text-decoration: underline;
   background: none;
   border: none;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Source Sans 3", sans-serif;
   font-weight: 700;
 }
@@ -232,14 +212,18 @@ article {
   outline: none;
 }
 
+/* Media queries */
+
+/* Tablet, laptop, bigger screens */
 @media (min-width: 480px) {
+  /* Header */
   .mainHeader {
-    padding: 5px 20px;
-    margin: 5px 20px;
+    padding: 0.31em 1.25em;
+    margin: 0.31em 1.25em;
   }
 
   .headerBtn {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .logoImg {
@@ -248,13 +232,16 @@ article {
   }
 
   .logoText {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
+  /* Hero post */
   .heroPostText p {
     width: 80%;
   }
 }
+
+/* Support classes */
 
 .hidden {
   display: none;
