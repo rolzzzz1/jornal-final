@@ -90,6 +90,7 @@ body {
 .heroImg {
   padding-bottom: 10px;
   padding-top: 15px;
+  width: 100%;
 }
 
 .heroPostDiv {
