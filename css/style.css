@@ -160,6 +160,12 @@ body {
   text-align: center;
 }
 
+.articlesContainer {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
 article {
   padding: 1.25em 0;
 }
