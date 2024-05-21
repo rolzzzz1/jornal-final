@@ -112,6 +112,25 @@ body {
   color: #ffffff;
 }
 
+.heroPostText span {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.heroPostText h1 {
+  font-size: 32px;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.heroPostText p {
+  font-size: 16px;
+  margin: 0;
+  padding: 10px 0;
+}
+
 .aboutMeTextDark {
   color: #151515;
   padding-top: 10px;
@@ -128,20 +147,20 @@ body {
   font-family: "Source Sans 3", sans-serif;
 }
 
-.heroPostText span {
+.heroPostTextDark span {
   font-size: 12px;
   font-weight: 400;
   margin: 0;
   padding: 0;
 }
 
-.heroPostText h1 {
+.heroPostTextDark h1 {
   font-size: 32px;
   margin: 0;
   padding: 10px 0 0 0;
 }
 
-.heroPostText p {
+.heroPostTextDark p {
   font-size: 16px;
   margin: 0;
   padding: 10px 0;
