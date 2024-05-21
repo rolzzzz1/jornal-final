@@ -174,14 +174,14 @@ article {
   font-size: 14px;
   font-family: "Source Sans 3", sans-serif;
   margin: 0;
-  padding: 15px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 .article-header h2 {
   font-size: 24px;
   font-family: "Source Sans 3", sans-serif;
   margin: 0;
-  padding: 15px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 .article-header h3 {
@@ -189,7 +189,7 @@ article {
   font-family: "Source Sans 3", sans-serif;
   font-weight: 400;
   margin: 0;
-  padding: 15px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 .viewMBtnDiv {
