@@ -176,7 +176,6 @@ body {
 article {
   padding: 1.25em 0;
   /* margin-bottom: 30px; */
-  object-fit: cover;
 }
 
 .articleImg {
