@@ -162,6 +162,7 @@ body {
   max-width: 900px;
   padding-top: 1.5em;
   margin: 0 auto;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 /* CSS Grid Magic */
