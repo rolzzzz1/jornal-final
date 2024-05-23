@@ -184,6 +184,10 @@ article {
   height: 70%;
 }
 
+.article-header {
+  padding: 10px 0;
+}
+
 .article-header p,
 .article-header h2,
 .article-header h3 {
