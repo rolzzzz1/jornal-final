@@ -117,6 +117,7 @@ body {
   max-width: 660px;
   font-family: "Source Sans 3", sans-serif;
   color: #ffffff;
+  margin: 0 auto;
 }
 
 .heroPostText span {
