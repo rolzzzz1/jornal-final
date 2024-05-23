@@ -250,6 +250,10 @@ article {
   .heroPostText p {
     width: 80%;
   }
+
+  article {
+    padding: 1.25em 0;
+  }
 }
 
 /* Support classes */
