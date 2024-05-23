@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -174,8 +176,8 @@ body {
 }
 
 article {
-  padding: 1.25em 0;
-  /* margin-bottom: 30px; */
+  /* padding: 1.25em 0; */
+  margin-bottom: 1em;
 }
 
 .articleImg {
