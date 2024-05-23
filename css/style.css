@@ -218,10 +218,9 @@ img {
   grid-auto-rows: 450px;
 }
 
-article {
-  /* padding: 1.25em 0; */
-  margin-bottom: 1em;
-}
+/* article {
+  padding: 1.25em 0;
+} */
 
 .articleImg {
   width: 100%;
