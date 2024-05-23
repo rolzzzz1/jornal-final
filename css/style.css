@@ -168,6 +168,7 @@ body {
   display: grid;
   gap: 1em;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 article {
