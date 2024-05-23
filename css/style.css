@@ -156,6 +156,7 @@ body {
 .arcticlesDiv {
   padding: 1.25rem;
   max-width: 900px;
+  margin: 0 auto;
 }
 
 .acrticleDivTitle {
