@@ -98,12 +98,11 @@ homeBtn.addEventListener("click", function () {
 });
 
 viewBtn.addEventListener("click", function () {
-  console.log(viewBtn.innerText);
-  // if (viewBtn.innerHTML === "View More") {
-  //   viewBtn.innerHTML = "View Less";
-  // } else {
-  //   viewBtn.innerHTML = "View More";
-  // }
+  if (viewBtn.innerText === "View More") {
+    viewBtn.innerText = "View Less";
+  } else {
+    viewBtn.innerText = "View More";
+  }
 
-  // extraPosts.classList.toggle("hidden");
+  extraPosts.classList.toggle("hidden");
 });
