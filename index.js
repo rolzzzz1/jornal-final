@@ -98,7 +98,7 @@ homeBtn.addEventListener("click", function () {
 });
 
 viewBtn.addEventListener("click", function () {
-  if (viewBtn.innerHTML === "<button class="viewMBtn">View More</button>") {
+  if (viewBtn.innerHTML === '<button class="viewMBtn">View More</button>') {
     console.log("yes");
   } else {
     viewBtn.textContent = "View More";
