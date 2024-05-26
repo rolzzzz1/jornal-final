@@ -98,10 +98,10 @@ homeBtn.addEventListener("click", function () {
 });
 
 viewBtn.addEventListener("click", function () {
-  if (viewBtn.innerText === "View More") {
-    viewBtn.innerText = "View Less";
+  if (viewBtn.textContent === "View More") {
+    viewBtn.textContent = "View Less";
   } else {
-    viewBtn.innerText = "View More";
+    viewBtn.textContent = "View More";
   }
 
   extraPosts.classList.toggle("hidden");
