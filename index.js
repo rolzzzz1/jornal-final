@@ -98,10 +98,11 @@ homeBtn.addEventListener("click", function () {
 });
 
 viewBtn.addEventListener("click", function () {
-  if (viewBtn.innerHTML === '<button class="viewMBtn">View More</button>') {
+  if (viewBtn.innerText === "View More") {
     console.log("yes");
+    viewBtn.innerHTML = `<button class="viewMBtn">View Less</button>`;
   } else {
-    viewBtn.textContent = "View More";
+    viewBtn.innerHTML = `<button class="viewMBtn">View More</button>`;
   }
 
   extraPosts.classList.toggle("hidden");
