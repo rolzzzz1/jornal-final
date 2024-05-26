@@ -1,6 +1,6 @@
 const heroDiv = document.getElementById("heroPostDiv");
 const articleDiv = document.getElementById("arcticlesDiv");
-// const viewBtn = document.getElementById("viewMBtnDiv");
+const viewBtn = document.getElementById("viewMBtnDiv");
 const aboutBtn = document.getElementById("aboutBtn");
 const homeBtn = document.getElementById("homeBtn");
 const recentPostTitle = document.getElementById("recentPostTitle");
@@ -35,7 +35,6 @@ heroDiv.addEventListener("click", function () {
     }
 
     heroDiv.style.background = "none";
-    // viewBtn.classList.add("hidden");
   }
 });
 
@@ -72,7 +71,6 @@ aboutBtn.addEventListener("click", function () {
   }
 
   heroDiv.style.background = "none";
-  // viewBtn.classList.add("hidden");
 
   isHome = false;
 });
@@ -96,4 +94,8 @@ homeBtn.addEventListener("click", function () {
   if (!recentPostTitle.classList.contains("hidden")) {
     recentPostTitle.classList.toggle("hidden");
   }
+});
+
+viewBtn.addEventListener("click", function () {
+  viewBtn.classList.toggle("hidden");
 });
