@@ -4,6 +4,7 @@ const viewBtn = document.getElementById("viewMBtnDiv");
 const aboutBtn = document.getElementById("aboutBtn");
 const homeBtn = document.getElementById("homeBtn");
 const recentPostTitle = document.getElementById("recentPostTitle");
+const extraPosts = document.getElementById("extraPosts");
 var isHome = true;
 
 // Hero div event listener
@@ -97,5 +98,5 @@ homeBtn.addEventListener("click", function () {
 });
 
 viewBtn.addEventListener("click", function () {
-  viewBtn.classList.remove("hidden");
+  extraPosts.classList.toggle("hidden");
 });
