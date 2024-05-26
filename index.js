@@ -98,6 +98,7 @@ homeBtn.addEventListener("click", function () {
 });
 
 viewBtn.addEventListener("click", function () {
+  console.log(viewBtn.innerHTML);
   if (viewBtn.textContent === "View More") {
     viewBtn.textContent = "View Less";
   } else {
