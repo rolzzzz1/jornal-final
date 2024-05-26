@@ -98,5 +98,11 @@ homeBtn.addEventListener("click", function () {
 });
 
 viewBtn.addEventListener("click", function () {
+  if (viewBtn.innerHTML === "View More") {
+    viewBtn.innerHTML = "View Less";
+  } else {
+    viewBtn.innerHTML = "View More";
+  }
+
   extraPosts.classList.toggle("hidden");
 });
