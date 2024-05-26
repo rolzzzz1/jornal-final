@@ -97,5 +97,5 @@ homeBtn.addEventListener("click", function () {
 });
 
 viewBtn.addEventListener("click", function () {
-  viewBtn.classList.toggle("hidden");
+  viewBtn.classList.remove("hidden");
 });
