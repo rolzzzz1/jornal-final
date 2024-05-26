@@ -98,7 +98,7 @@ homeBtn.addEventListener("click", function () {
 });
 
 viewBtn.addEventListener("click", function () {
-  console.log(viewBtn.innerHTML);
+  console.log(viewBtn.innerText);
   // if (viewBtn.innerHTML === "View More") {
   //   viewBtn.innerHTML = "View Less";
   // } else {
