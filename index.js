@@ -35,9 +35,9 @@ heroDiv.addEventListener("click", function () {
                               </div>
                           `;
 
-    // if (recentPostTitle.classList.contains("hidden")) {
-    //   recentPostTitle.classList.toggle("hidden");
-    // }
+    if (recentPostTitle.classList.contains("hidden")) {
+      recentPostTitle.classList.toggle("hidden");
+    }
 
     heroDiv.style.background = "none";
   }
@@ -71,9 +71,9 @@ aboutBtn.addEventListener("click", function () {
                                 </div>
                             `;
 
-  // if (recentPostTitle.classList.contains("hidden")) {
-  //   recentPostTitle.classList.toggle("hidden");
-  // }
+  if (recentPostTitle.classList.contains("hidden")) {
+    recentPostTitle.classList.toggle("hidden");
+  }
 
   heroDiv.style.background = "none";
 
@@ -98,9 +98,9 @@ homeBtn.addEventListener("click", function () {
   heroDiv.style.background = 'url("../images/article-image-hero.jpg")';
   heroDiv.style.backgroundSize = "cover";
 
-  // if (!recentPostTitle.classList.contains("hidden")) {
-  //   recentPostTitle.classList.toggle("hidden");
-  // }
+  if (!recentPostTitle.classList.contains("hidden")) {
+    recentPostTitle.classList.toggle("hidden");
+  }
 });
 
 viewBtn.addEventListener("click", function () {
