@@ -170,6 +170,7 @@ body {
 
 .aboutMeTextDiv h1 {
   line-height: 1em;
+  margin-bottom: 0;
 }
 
 .aboutMeTextDiv p {
