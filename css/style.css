@@ -128,7 +128,8 @@ body {
   background-size: cover;
   padding: 1.25em;
   cursor: pointer;
-  margin: 0 0 1em auto;
+  margin: 0 auto 1em 0;
+  /* margin: 0 auto 1em auto; */
   /* min-height: 700px; */
 }
 
