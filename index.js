@@ -49,10 +49,12 @@ aboutBtn.addEventListener("click", function () {
                                 <div>
                                     <div class="aboutMeTextDark">
                                         <img src="images/image-18.jpg">
-                                        <h1>Hi there! My name is Roku and welcome to my learning journal.</h1>
-                                        <p>
+                                        <div>
+                                          <h1>Hi there! My name is Roku and welcome to my learning journal.</h1>
+                                          <p>
                                             After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.
-                                        </p>
+                                          </p>
+                                        </div>
                                     </div>
                                     <div class="heroPostTextDark">
                                                         
