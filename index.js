@@ -12,6 +12,7 @@ heroDiv.addEventListener("click", function () {
   if (isHome) {
     heroDiv.innerHTML = `
                               <div class="heroPostDivDark">
+                                <div class="heroTextContainer">
                                   <div class="heroPostText heroPostTextDark">
                                       <span>JULY 23, 2022</span>
                                       <h1>My new journey as a bootcamp student.</h1>
@@ -19,6 +20,7 @@ heroDiv.addEventListener("click", function () {
                                           After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.
                                       </p>
                                   </div>
+                                </div>
                                   <img src="./images/article-image-hero.jpg" class="heroImg">
                                   <div class="heroPostTextDark">
                                       <h3> How I stay committed to learning </h3>
