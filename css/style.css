@@ -164,6 +164,10 @@ body {
   max-width: 1000px;
 }
 
+.aboutMeTextDiv {
+  padding: 0 0 0 1em;
+}
+
 .heroPostTextDark {
   color: #151515;
   min-height: 0;
