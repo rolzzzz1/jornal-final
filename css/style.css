@@ -181,16 +181,13 @@ article {
   margin-bottom: 1em;
 }
 
-img {
-  width: 100%;
-}
-
 .article-info {
   text-transform: uppercase;
 }
 
 .article-img {
   margin-bottom: 1em;
+  width: 100%;
 }
 
 .article-title {
