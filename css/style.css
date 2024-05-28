@@ -172,6 +172,10 @@ body {
   line-height: 1em;
 }
 
+.aboutMeTextDiv p {
+  margin-top: 0;
+}
+
 .heroPostTextDark {
   color: #151515;
   min-height: 0;
