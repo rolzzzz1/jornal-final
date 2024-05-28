@@ -109,8 +109,18 @@ body {
   max-width: 1000px;
 }
 
-.heroPostDiv {
+/* .heroPostDiv {
   display: block;
+  background: url("../images/article-image-hero.jpg");
+  background-size: cover;
+  padding: 1.25em;
+  cursor: pointer;
+  margin: 0 auto 1em auto;
+  min-height: 700px;
+} */
+
+.heroPostDiv {
+  display: flex;
   background: url("../images/article-image-hero.jpg");
   background-size: cover;
   padding: 1.25em;
