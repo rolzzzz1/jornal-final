@@ -111,10 +111,6 @@ body {
   margin: 0 auto;
 }
 
-.heroPostDivDark {
-  margin: 0 auto;
-}
-
 .heroTextContainer {
   max-width: 1000px;
   margin: 0 auto;
@@ -156,6 +152,7 @@ body {
   color: #151515;
   padding: 0.625rem 0 0 0;
   font-family: "Source Sans 3", sans-serif;
+  margin: 0 auto;
 }
 
 .heroPostTextDark {
