@@ -121,6 +121,8 @@ body {
 
 .heroPostDiv {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   background: url("../images/article-image-hero.jpg");
   background-size: cover;
   padding: 1.25em;
