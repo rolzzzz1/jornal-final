@@ -156,6 +156,7 @@ body {
 /* About me part CSS */
 
 .aboutMeTextDark {
+  display: flex;
   color: #151515;
   padding: 0.625rem 0 0 0;
   font-family: "Source Sans 3", sans-serif;
@@ -326,6 +327,13 @@ p {
   /* Hero post */
   .heroPostText p {
     width: 80%;
+  }
+
+  .aboutMeTextDark {
+    color: #151515;
+    padding: 0.625rem 0 0 0;
+    font-family: "Source Sans 3", sans-serif;
+    margin: 0 auto;
   }
 
   /* article {
