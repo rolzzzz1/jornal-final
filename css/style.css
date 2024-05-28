@@ -96,10 +96,10 @@ body {
 
 /* Hero post */
 
-.heroImgDiv {
+/* .heroImgDiv {
   display: block;
   margin: 0 auto;
-}
+} */
 
 .heroImg {
   display: block;
@@ -107,6 +107,7 @@ body {
   width: 70%;
   height: 70%;
   margin: 0 auto;
+  max-width: 900px;
 }
 
 .heroPostDiv {
