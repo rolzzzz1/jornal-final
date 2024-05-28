@@ -120,7 +120,7 @@ body {
 } */
 
 .heroPostDiv {
-  display: block;
+  display: flex;
   align-items: end;
   background: url("../images/article-image-hero.jpg");
   background-size: cover;
