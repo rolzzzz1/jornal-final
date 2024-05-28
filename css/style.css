@@ -116,6 +116,7 @@ body {
   padding: 1.25em;
   cursor: pointer;
   margin: 0 auto 1em auto;
+  min-height: 800px;
 }
 
 .heroTextContainer {
