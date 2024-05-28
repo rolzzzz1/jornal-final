@@ -97,6 +97,7 @@ body {
 /* Hero post */
 
 .heroImgDiv {
+  display: block;
   margin: 0 auto;
 }
 
