@@ -131,10 +131,10 @@ body {
   min-height: 700px;
 }
 
-.heroTextContainer {
+/* .heroTextContainer {
   max-width: 1000px;
   margin: 0 auto;
-}
+} */
 
 .heroPostText {
   display: flex;
