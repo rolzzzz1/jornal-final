@@ -20,8 +20,10 @@ heroDiv.addEventListener("click", function () {
                                           After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.
                                       </p>
                                   </div>
-                                
-                                  <img src="./images/article-image-hero.jpg" class="heroImg">
+                                  <div class="heroImgDiv">
+                                    <img src="./images/article-image-hero.jpg" class="heroImg">
+                                  </div>
+                                  
                                   <div class="heroPostTextDark">
                                       <h3> How I stay committed to learning </h3>
                                       <p>I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then try to create simple projects using what I learned or work new techniques into existing projects.</p>
