@@ -131,10 +131,10 @@ body {
   min-height: 700px;
 }
 
-/* .heroTextContainer {
+.heroTextContainer {
   max-width: 1000px;
   margin: 0 auto;
-} */
+}
 
 .heroPostText {
   display: flex;
@@ -144,7 +144,7 @@ body {
   max-width: 660px;
   font-family: "Source Sans 3", sans-serif;
   color: #ffffff;
-  margin: 0 auto 0 0;
+  margin: 0;
 }
 
 .heroPostText span {
