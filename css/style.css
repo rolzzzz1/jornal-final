@@ -107,6 +107,7 @@ body {
   background-size: cover;
   padding: 1.25em;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .heroTextContainer {
