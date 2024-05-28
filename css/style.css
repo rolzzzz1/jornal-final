@@ -165,7 +165,11 @@ body {
 }
 
 .aboutMeTextDiv {
-  padding: 0 0 0 1em;
+  padding: 0 0 0 2em;
+}
+
+.aboutMeTextDiv h1 {
+  line-height: 1em;
 }
 
 .heroPostTextDark {
