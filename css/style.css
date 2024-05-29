@@ -140,7 +140,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: start;
   min-height: 290px;
   max-width: 660px;
   font-family: "Source Sans 3", sans-serif;
