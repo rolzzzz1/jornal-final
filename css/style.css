@@ -140,9 +140,9 @@ body {
 }
 
 .heroPostText {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: flex-end; */
+  justify-content: flex-end;
   min-height: 290px;
   max-width: 660px;
   font-family: "Source Sans 3", sans-serif;
