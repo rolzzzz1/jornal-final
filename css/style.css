@@ -132,6 +132,9 @@ body {
 }
 
 .heroTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   max-width: 1000px;
   margin: 0 auto;
 }
