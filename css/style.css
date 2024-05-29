@@ -116,7 +116,7 @@ body {
   padding: 1.25em;
   cursor: pointer;
   margin: 0 auto 1em auto;
-  min-height: 680px;
+  min-height: 580px;
 }
 
 .heroTextContainer {
@@ -128,7 +128,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  min-height: 580px;
+  min-height: 480px;
   max-width: 660px;
   font-family: "Source Sans 3", sans-serif;
   color: #ffffff;
