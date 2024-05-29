@@ -351,11 +351,11 @@ p {
   }
 
   .heroPostText {
-    min-height: 480px;
+    min-height: 380px;
   }
 
   .heroPostDiv {
-    min-height: 580px;
+    min-height: 480px;
   }
 
   /* article {
