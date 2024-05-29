@@ -128,7 +128,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  min-height: 290px;
+  min-height: 350px;
   max-width: 660px;
   font-family: "Source Sans 3", sans-serif;
   color: #ffffff;
