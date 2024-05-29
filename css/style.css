@@ -136,7 +136,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   max-width: 1000px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 .heroPostText {
