@@ -136,13 +136,13 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   max-width: 1000px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .heroPostText {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-end; */
   min-height: 290px;
   max-width: 660px;
   font-family: "Source Sans 3", sans-serif;
