@@ -428,8 +428,8 @@ a {
   margin-left: 5rem;
 }
 
-.nav-item:hover,
-.nav-item:active {
+.nav-item.active:hover,
+.nav-item.active:active {
   background-color: #202020;
   color: #ffffff;
 }
