@@ -598,6 +598,10 @@ a {
 }
 
 @media only screen and (max-width: 645px) {
+  .aboutMeTextDiv {
+    padding: 0;
+  }
+
   .aboutMeTextDark {
     display: flex;
     flex-direction: column;
