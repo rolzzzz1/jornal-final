@@ -167,7 +167,7 @@ body {
 }
 
 .aboutMeTextDiv {
-  padding: 0 0 0 2em;
+  padding: 0;
 }
 
 .aboutMeTextDiv h1 {
@@ -353,7 +353,7 @@ p {
   }
 
   .aboutMeTextDiv {
-    padding: 0 0 0 0;
+    padding: 0 0 0 2em;
   }
 
   .heroPostText {
