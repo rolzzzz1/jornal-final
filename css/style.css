@@ -615,6 +615,20 @@ a {
     transform: translateY(-8px) rotate(-45deg);
   }
 
+  .aboutMeTextDiv {
+    padding: 0;
+  }
+
+  .aboutMeTextDark {
+    display: flex;
+    flex-direction: column;
+    color: #151515;
+    padding: 0.625rem 0 0 0;
+    font-family: "Source Sans 3", sans-serif;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
   .profileImg {
     width: 30%;
     height: 30%;
