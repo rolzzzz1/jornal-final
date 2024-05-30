@@ -507,6 +507,7 @@ a {
 
 .hamburger {
   display: none;
+  align-items: center;
 }
 
 .bar {
