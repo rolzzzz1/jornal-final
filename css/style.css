@@ -365,10 +365,6 @@ p {
     padding: 0 auto;
   }
 
-  .nav-item {
-    margin: 0;
-  }
-
   /* article {
     padding: 1.25em 0;
     margin-bottom: 1em;
@@ -462,9 +458,9 @@ a {
     left: 0;
   }
 
-  .nav-item {
+  /* .nav-item {
     margin: 2.5rem 0;
-  }
+  } */
 
   .hamburger {
     display: block;
