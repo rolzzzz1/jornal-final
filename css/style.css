@@ -360,6 +360,10 @@ p {
     min-height: 440px;
   }
 
+  ul {
+    padding-left: 20px;
+  }
+
   /* article {
     padding: 1.25em 0;
     margin-bottom: 1em;
