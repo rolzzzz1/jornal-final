@@ -428,6 +428,12 @@ a {
   margin-left: 5rem;
 }
 
+.nav-item:active,
+.nav-item:focus {
+  background-color: #202020;
+  color: #ffffff;
+}
+
 .nav-link {
   font-size: 1.6rem;
   font-weight: 400;
