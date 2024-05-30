@@ -576,17 +576,8 @@ a {
   }
 
   .nav-item {
+    display: block;
     margin: 1.5rem 0;
-  }
-
-  .nav-item:hover,
-  .nav-item:active {
-    background-color: #202020;
-    /* color: #ffffff; */
-  }
-
-  .headerBtn {
-    color: #ffffff;
   }
 
   .hamburger {
