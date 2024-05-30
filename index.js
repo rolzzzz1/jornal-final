@@ -48,7 +48,7 @@ aboutBtn.addEventListener("click", function () {
   heroDiv.innerHTML = `
                                 <div>
                                     <div class="aboutMeTextDark">
-                                        <img src="images/image-18.jpg">
+                                        <img src="images/image-18.jpg" class="profileImg">
                                         <div class="aboutMeTextDiv">
                                           <h1>Hi there! My name is Roku and welcome to my learning journal.</h1>
                                           <p>
