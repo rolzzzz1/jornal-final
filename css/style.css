@@ -56,7 +56,7 @@ body {
 .headerBtn {
   background: none;
   border: none;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-family: "Source Sans 3", sans-serif;
   font-weight: 600;
   cursor: pointer;
@@ -596,7 +596,7 @@ a {
 .headerBtn {
   background: none;
   border: none;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-family: "Source Sans 3", sans-serif;
   font-weight: 600;
   cursor: pointer;
