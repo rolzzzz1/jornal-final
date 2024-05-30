@@ -444,7 +444,8 @@ a {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 5rem;
+    /* top: 5rem; */
+    top: 1rem;
     flex-direction: column;
     background-color: #fff;
     width: 100%;
@@ -557,7 +558,8 @@ a {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 5rem;
+    /* top: 5rem; */
+    top: 1rem;
     flex-direction: column;
     background-color: #fff;
     width: 100%;
