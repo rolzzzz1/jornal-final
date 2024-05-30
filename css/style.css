@@ -576,8 +576,12 @@ a {
   }
 
   .nav-item {
-    display: block;
     margin: 1.5rem 0;
+  }
+
+  .nav-item {
+    display: block;
+    background-color: #202020;
   }
 
   .hamburger {
