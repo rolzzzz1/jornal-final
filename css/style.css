@@ -456,11 +456,12 @@ a {
 
   .nav-menu.active {
     left: 0;
+    padding-left: 0;
   }
 
-  /* .nav-item {
+  .nav-item {
     margin: 2.5rem 0;
-  } */
+  }
 
   .hamburger {
     display: block;
@@ -568,6 +569,7 @@ a {
 
   .nav-menu.active {
     left: 0;
+    padding-left: 0;
   }
 
   .nav-item {
