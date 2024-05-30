@@ -22,6 +22,7 @@ body {
 
 .mainHeader {
   justify-content: space-between;
+  align-items: center;
   margin: 0.25em 0.75em;
   padding: 0.25em 0.75em;
 }
@@ -507,7 +508,6 @@ a {
 
 .hamburger {
   display: none;
-  align-items: center;
 }
 
 .bar {
