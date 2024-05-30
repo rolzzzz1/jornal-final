@@ -83,7 +83,6 @@ aboutBtn.addEventListener("click", function () {
 });
 
 // Home btn event listener
-
 homeBtn.addEventListener("click", function () {
   isHome = true;
   heroDiv.innerHTML = `
@@ -117,10 +116,10 @@ viewBtn.addEventListener("click", function () {
   extraPosts.classList.toggle("hidden");
 });
 
-// Nav
-
+// Nav Hamburger
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
+const navItem = document.querySelectorAll(".nav-item");
 
 hamburger.addEventListener("click", mobileMenu);
 
@@ -129,9 +128,7 @@ function mobileMenu() {
   navMenu.classList.toggle("active");
 }
 
-const navLink = document.querySelectorAll(".nav-link");
-
-navLink.forEach((n) => n.addEventListener("click", closeMenu));
+navItem.forEach((n) => n.addEventListener("click", closeMenu));
 
 function closeMenu() {
   hamburger.classList.remove("active");
