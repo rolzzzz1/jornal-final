@@ -582,6 +582,10 @@ a {
   .nav-item:hover,
   .nav-item:active {
     background-color: #202020;
+    /* color: #ffffff; */
+  }
+
+  .headerBtn {
     color: #ffffff;
   }
 
