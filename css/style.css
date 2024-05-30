@@ -444,7 +444,6 @@ a {
   .nav-menu {
     position: fixed;
     left: -100%;
-    /* top: 5rem; */
     top: 2rem;
     flex-direction: column;
     background-color: #fff;
@@ -504,7 +503,6 @@ a {
   justify-content: space-between;
   margin: 0.5em 1em;
   padding: 0.5em 1em;
-  /* border-bottom: 1px solid #e2e8f0; */
 }
 
 .navbar {
@@ -558,7 +556,6 @@ a {
   .nav-menu {
     position: fixed;
     left: -100%;
-    /* top: 5rem; */
     top: 2rem;
     flex-direction: column;
     background-color: #fff;
