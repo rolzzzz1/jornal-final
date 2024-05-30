@@ -60,6 +60,7 @@ body {
   font-family: "Source Sans 3", sans-serif;
   font-weight: 600;
   cursor: pointer;
+  color: #090909;
 }
 
 .headerBtn:active,
@@ -600,6 +601,7 @@ a {
   font-family: "Source Sans 3", sans-serif;
   font-weight: 600;
   cursor: pointer;
+  color: #090909;
 }
 
 .headerBtn:active,
