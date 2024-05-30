@@ -384,9 +384,9 @@ a {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 2rem;
+    top: 3.8rem;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #ffffff;
     width: 100%;
     border-radius: 10px;
     text-align: center;
