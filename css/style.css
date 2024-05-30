@@ -582,6 +582,9 @@ a {
   .nav-item:hover {
     display: block;
     background-color: #202020;
+  }
+
+  .nav-item:hover .headerBtn {
     color: #ffffff;
   }
 
