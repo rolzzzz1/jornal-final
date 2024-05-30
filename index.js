@@ -1,5 +1,4 @@
 const heroDiv = document.getElementById("heroPostDiv");
-const articleDiv = document.getElementById("arcticlesDiv");
 const viewBtn = document.getElementById("viewMBtnDiv");
 const aboutBtn = document.getElementById("aboutBtn");
 const homeBtn = document.getElementById("homeBtn");
