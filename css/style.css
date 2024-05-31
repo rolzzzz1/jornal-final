@@ -15,7 +15,7 @@ body {
 /* Common CSS */
 
 .mainHeader,
-/* .logoDiv, */
+.logoDiv,
 .headerBtnDiv {
   display: flex;
 }
@@ -29,9 +29,9 @@ body {
 
 /* Complete Logo CSS */
 
-/* .logoDiv {
+.logoDiv {
   align-items: center;
-} */
+}
 
 .logoImg {
   width: 23px;
@@ -41,7 +41,7 @@ body {
 .logoText {
   display: inline;
   font-size: 0.844rem;
-  padding: 0 0.37em;
+  /* padding: 0 0.37em; */
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
