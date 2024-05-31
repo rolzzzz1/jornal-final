@@ -163,6 +163,17 @@ body {
   gap: 0.5rem;
 }
 
+.aboutMeTextDiv h1 {
+  line-height: 1em;
+}
+
+.aboutMeTextDiv,
+.aboutMeTextDiv h1,
+.aboutMeTextDiv p {
+  padding: 0;
+  margin: 0;
+}
+
 /* .aboutMeTextDiv {
   padding: 0;
 }
