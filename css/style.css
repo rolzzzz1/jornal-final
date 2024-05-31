@@ -41,7 +41,7 @@ body {
 .logoText {
   display: inline;
   font-size: 0.844rem;
-  /* padding: 0 0.37em; */
+  padding: 0 0.37em;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
@@ -140,13 +140,15 @@ body {
 .heroPostText h1 {
   font-size: 2rem;
   margin: 0;
-  padding: 0.31em 0 0 0;
+  /* padding: 0.31em 0 0 0; */
+  padding: 0;
 }
 
 .heroPostText p {
   font-size: 1rem;
   margin: 0;
-  padding: 0.625em 0;
+  /* padding: 0.625em 0; */
+  padding: 0;
 }
 
 /* About me part CSS */
