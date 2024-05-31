@@ -15,7 +15,7 @@ body {
 /* Common CSS */
 
 .mainHeader,
-.logoDiv,
+/* .logoDiv, */
 .headerBtnDiv {
   display: flex;
 }
