@@ -99,6 +99,7 @@ homeBtn.addEventListener("click", function () {
   }
 });
 
+// View more link event listener
 viewBtn.addEventListener("click", function () {
   if (viewBtn.innerText === "View More") {
     console.log("yes");
